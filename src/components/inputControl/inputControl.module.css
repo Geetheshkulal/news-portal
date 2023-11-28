@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.container label{
+    font-weight: 500;
+    font-size: 1rem;
+    color: grey;
+}
+.container input{
+    border-radius: 5px;
+    border: 3px solid red;
+    outline: none;
+    padding: 10px 15px;
+    color: black;
+}
+.container input:hover{
+    border-color: white;
+}
+.container input:focus{
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.6);
+}
+
