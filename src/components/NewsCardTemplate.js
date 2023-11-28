@@ -1,5 +1,5 @@
 const template = document.createElement('template');
-template.innerHTML = `
+template.innerHTML = 
   <div className="card">
     <div className="card-header">
       <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img" />
@@ -10,7 +10,7 @@ template.innerHTML = `
       <p className="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, totam. Sequi, ipsum. Ea dolorem doloribus cumque, magni harum velit, ullam, nemo corrupti consequuntur mollitia voluptates porro id. Impedit, voluptatibus cumque!</p>
     </div>
   </div>
-`;
+;
 
 class NewsCardTemplate extends HTMLElement {
   constructor() {
